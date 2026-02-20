@@ -38,6 +38,6 @@ public class GameManager : MonoBehaviour
     public void GoToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu"); // Change to your menu name
+        SceneManager.LoadScene("MainMenu"); 
     }
 }
