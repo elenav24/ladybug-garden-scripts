@@ -35,9 +35,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void GoToMenu()
+    public void ExitToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu"); 
+        SceneManager.LoadScene("MainMenu"); // Change to your menu name
     }
 }
